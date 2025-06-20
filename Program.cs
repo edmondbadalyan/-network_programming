@@ -10,7 +10,7 @@ namespace Сетевое_программирование
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WeatherForm());
+            Application.Run(new DocumentationForm());
         }
     }
 }
