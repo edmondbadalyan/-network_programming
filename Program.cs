@@ -1,16 +1,12 @@
-﻿using System;
-using System.Windows.Forms;
+﻿namespace Сетевое_программирование;
 
-namespace Сетевое_программирование
+internal static class Program
 {
-    internal static class Program
+    [STAThread]
+    static void Main()
     {
-        [STAThread]
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WeatherForm());
-        }
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
+        Application.Run(new FtpSpeedTestForm());
     }
 }
